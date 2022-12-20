@@ -1,0 +1,295 @@
+/*===================== 
+	Primary bg color 
+=====================*/
+
+/* Hex */
+#loading-area > div,
+.about-sidebox .closebtn,
+.menuleft:after,
+.bg-primary,
+a.bg-primary:hover,
+.overlay-primary-light:after,
+.overlay-primary-middle:after,
+.overlay-primary-dark:after,
+.site-button,
+.lg-actions .lg-next, 
+.lg-actions .lg-prev, 
+.lg-sub-html, 
+.lg-toolbar{
+    background-color: #185993;
+}
+
+/*Hex color :hover */
+.about-sidebox .closebtn:hover,
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.active > .site-button,
+.bg-primary-dark,
+.sidenav .closebtn:hover,
+.style-2 .dez-social-icon.dez-border li a:hover{
+    background-color: #2376c0;
+}
+
+/*===================== 
+	Premery text color 
+=====================*/
+a,
+.text-primary,
+.site-button.outline,
+.dez-countdown .date .time,
+.lg-outer .lg-toogle-thumb,
+.lg-outer .lg-toogle-thumb:hover {
+    color: #185993;
+}
+
+/*===================== 
+	Border Color color 
+=====================*/
+.subscribe-box .form-control,
+.site-button.outline,
+.dez-countdown .date .time{
+	border-color:#185993;
+}
+
+.lg-outer .lg-thumb-item.active, 
+.lg-outer .lg-thumb-item:hover{
+	border-color: #185993;
+}
+
+/* GD */
+.contact-box .form-group:after,
+.count-1.countdown .date .time{
+    background-image: linear-gradient(to right,#185993 0,#236dae 51%,#185993 100%);
+	background-size: 200%;
+	box-shadow: 10px 10px 30px 0 rgba(24,89,147,0.25) !important;
+}
+.dez-social-icon li a,
+.site-button.gradient{
+    background-image: linear-gradient(to right,#185993 0,#236dae 51%,#185993 100%);
+	background-size: 200%;
+}
+.style-1 .dez-social-icon li a:hover,
+.site-button.gradient:hover{
+    background-position: right center;
+}
+#loading-area > div,
+.site-button.shadow{
+	box-shadow: 10px 10px 10px 0 rgba(24,89,147,0.25) !important;
+}
+
+.connect-wallet {
+	position: absolute;
+	z-index: 999;
+	top: 10px;
+	right: 40px;
+}
+
+.wallet-connector-container {
+	display: flex;
+	align-items: center;
+}
+
+.modal-btn {
+	width: 356px;
+	margin-top: 20px;
+	padding: 12px 20px !important;
+}
+
+.modal-btn:hover {
+	cursor: pointer;
+}
+
+.modal-btn:focus {
+	outline: 0px;
+}
+
+.modal-container .modal-dialog {
+	width: 360px;
+}
+
+.modal-container .modal-content {
+	border-radius: 1rem;
+	height: auto;
+}
+
+.modal-container .modal-header {
+	border-radius: 1rem 1rem 0 0;
+	background-color: white;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.modal-container .modal-header .modal-title {
+	margin-left: auto;
+	color: #185993;
+}
+
+.modal-container .dropdown-toggle {
+	width: 100%;
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+
+.modal-container .dropdown-toggle::after {
+	position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+.modal-container .dropdown-toggle .btn-primary:hover {
+    color: #fff;
+    background-color: #fff !important;
+    border-color: #000 !important;
+}
+
+.modal-container .dropdown-menu {
+	width: 100%;
+}
+
+.modal-container .dropdown-menu .dropdown-item:hover {
+	background-color: #ccc;
+	border-radius: 5px;
+}
+
+.modal-container .allownce-text {
+	margin-top: 24px;
+	text-align: end;
+}
+
+.modal-container .allownce-text .span {
+	color: #000;
+}
+
+.modal-container .token-slider {
+	margin-top: 12px;
+	width: 100%;
+}
+
+.modal-container .token-slider:hover {
+	cursor: pointer;
+}
+
+.modal-container .required-tokens {
+	margin-top: 12px;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: #000;
+}
+
+.modal-container .required-tokens:focus {
+	outline: 1px;
+}
+
+.modal-container .modal-body {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.modal-container .modal-footer {
+	padding: 10px 20px 20px 20px;
+}
+
+.modal-container .modal-footer .basic-btn {
+	border-width: 0px;
+	border-radius: 10px;
+}
+
+.modal-container .modal-footer .basic-btn:hover {
+	cursor: pointer;
+}
+
+.modal-container .modal-footer .basic-btn:focus {
+	outline: 0px;
+}
+
+.modal-container .modal-footer .confirm-btn {
+	width: 100%;
+}
+
+.modal-container .modal-footer .disabled-btn {
+	background-color: #999;
+	width: 100%;
+}
+
+.deposit-text {
+	text-align: right;
+}
+
+.dropdown-token-list {
+	position: relative;
+}
+
+.dropdown-token-list .title {
+	width: 100%;
+}
+
+.dropdown-token-list .title-btn {
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	border-width: 1px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.dropdown-token-list .title-btn:focus {
+	border-width: 1px;
+	outline: 1px;
+}
+
+.dropdown-token-list .title-btn:hover {
+	cursor: pointer;
+}
+
+.dropdown-token-list .arrow-down {
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+
+.dropdown-token-list .arrow-down-btn {
+	box-sizing: border-box;
+	color: #000;
+	border-width: 0px;
+	background-color: transparent;
+}
+
+.dropdown-token-list .arrow-down-btn:hover {
+	cursor: pointer;
+}
+
+.dropdown-token-list .arrow-down-btn:focus {
+	outline: 0px;
+}
+
+.dropdown-token-list .menu {
+	position: absolute;
+	width: 100%;
+	background-color: #eee;
+}
+
+.dropdown-token-list .item {
+}
+
+.dropdown-token-list .item-btn {
+	box-sizing: border-box;
+	width: 100%;
+	height: 36px;
+	margin: 1px 0;
+	border-width: 0px;
+}
+
+.dropdown-token-list .item-btn:focus {
+	outline: 0px;
+}
+
+.dropdown-token-list .item-btn:hover {
+	cursor: pointer;
+	border-radius: 3px;
+	background-color: #ccc;
+}
